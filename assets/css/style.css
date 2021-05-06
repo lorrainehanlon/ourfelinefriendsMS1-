@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,400,500,600,700&display=swap');
+
+header{
+    margin: 0;
+    
+    }
+
+
+
+.logo{
+    max-width: 100px;
+    max-height: auto;
+    object-fit: contain;
+    margin-left: 100px;
+}
+
+.nav-color-who{
+    background: khaki;
+}
+
+.nav-color-adopt{
+    background: khaki;
+}
+
+.nav-color-support{
+    background: khaki;
+}
+
+.menuitem{
+    height: max-content;
+}
+
+#nav span{
+    font-size: 20px;
+}
+
+.logo-image{
+    padding-left: 20px;
+}
+
