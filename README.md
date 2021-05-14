@@ -1,52 +1,79 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#Our Feline Friends
 
-Welcome lorrainehanlon,
+##Milestone Project 1 - User Centric Front-end Design
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The brief is to build a static front-end site using HTML and CSS, and based on the principles of UX design. This website is for educational purposes.
 
-## Gitpod Reminders
+##UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+###Project Goals
+The goal of this site is to inform users about the work of the cat shelter and lead them to considering adopting a cat, making a charitable donation and getting in touch. Users will be encouraged to return to the site to see new cats that are available to adopt.  
 
-`python3 -m http.server`
+###User Stories
 
-A blue button should appear to click: _Make Public_,
+1. As a potential cat adopter, I want to find about the organisation and the process involved in adopting a cat.
+2. As a potential cat adoptor, I want to see pictures and find out about cats looking for a home.
+3. As a potential cat adoptor, I want to know how to make contact to start the adoption process.
+4. As a cat lover, I want to know how I can support this organisation in their work.
+5. As a cat lover, I want to see lots of pictures of cats.
+6. As a cat lover, I want to know about other ways I can follow the work of the organisation and the cats that are being saved from the streets.
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+###Design
 
-A blue button should appear to click: _Make Public_,
+####Typography
+I have chosen Roboto as a clear informative font, this site aims to allow the user to quickly take in the information and move to the area of the site they require. 
 
-Another blue button should appear to click: _Open Browser_.
+####Colour scheme
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+####Imagery
+I chose to have a large three picture carousel in my home page with images of the the cats that have been cared for at the cat shelter. It is bold and leaves the user in no doubt of what the site is about. Throughout the site further images of cats are used to inform the user about the cats that are currently available for adoption and to show the cats in happy condition now that they have been taken off the streets. 
 
-To log into the Heroku toolbelt CLI you can use:
+###Wireframes
+I created 3 wireframes to display the responsive design of my site - 
 
-`heroku login -i`
 
-If you have Multi-Factor Authentication (MFA) enabled then use the API key that was generated for you at [Heroku](https://dashboard.heroku.com/account) as your password.
-This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+##Features
+I decided to create a single page website with 3 sections rather than a 3 page site. I created sections for "who we are" "Adopt a cat" and "Support us". This leads the user through the story of how the shelter came to be, how to adopt a cat and the cats currently available and then if the user is not in a position to adopt, they can see other ways to support the shelter.
 
-## Updates Since The Instructional Video
+The site follows structured layout starting with a header with fixed navbar always available to the user as they scroll, allowing them to navigate easily to different parts of the site. The navbar includes links to the three main sections. A carousel is used below the header with large images of cats that highlight the reason for the shelter and quickly cnofirm what this site is all about - cats.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The "Who we are" section quickly gives the user information on when the shelter was established, it's purpose and where it is. This is enhanced with an image of the shelter and some of the volunteers.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The "Adopt a cat" section gives an explanation of the process of adoption followed by a set of images of indiviual cats awaiting adoption along with a description of each. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The "Support us" section details three ways users can contirbute to the shelter, through cash and goods donations and adoption. Each point is illustrated by icons.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+This then leads on to the "Contact Us" form where users can enquire about adopting a cat or submit any questions they may have.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Below that the user can access links to social media.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The footer contains contact details such as telephone number and address along with a link back to the top of the page. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+##Technologies used
+*HTML
+*CSS
+*Bootstrap
+*TinyPNG for compressing images
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+##Testing
 
----
+###UX stories testing
 
-Happy coding!
+###Validation
+
+##Deployment
+
+##Credits
+
+###Content
+Text content all original by me. 
+
+###Media
+Carousel images and cats for adoption images from www.pexels.com
+Cat in shelter image from www.soidog.org
+Volunteers image from www.cattime.com
+
+
+
+##Acknowledgements
