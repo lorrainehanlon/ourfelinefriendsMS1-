@@ -14,6 +14,73 @@ body {
     padding-bottom: 3rem;
     color: #5a5a5a;
   }
+
+/* Headings
+-------------------------------------------------- */
+h1{
+  font-weight: 600;
+}
+
+
+/* NAVBAR STYLES
+-------------------------------------------------- */
+
+  .navbar{
+  height: 70px;
+  }
+
+  .bg-dark {
+    background-color: #81b29a!important;
+  }
+
+  .btn-outline-success:hover {
+    color: #e07a5f;
+    background-color: #fff;
+    border-color: #e07a5f;
+}
+
+.btn-outline-success {
+  color: #fff; 
+  background-color: #e07a5f;
+  border-color: #fff;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #e07a5f;
+  border-color: #fff;
+}
+
+.btn-primary:hover {
+  color: #e07a5f;
+    background-color: #fff;
+    border-color: #e07a5f;
+}
+
+  .navbar-brand{
+    margin-left: 1rem;
+    text-transform: uppercase;
+
+  }
+
+  .nav-item{
+    text-transform: uppercase;
+    font-size: large;
+    color: #fff;
+    
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+  .contact-us{
+    text-transform: uppercase;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  
   
   
   /* CUSTOMIZE THE CAROUSEL
