@@ -12,13 +12,25 @@ header{
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    color: #5a5a5a;
+    color: #023047;
+    background-color: #f4f1de;
   }
+
+section{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 
 /* Headings
 -------------------------------------------------- */
 h1{
   font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+h2{
+  font-weight: 500;
+  padding: 1rem;
 }
 
 
@@ -40,13 +52,13 @@ h1{
 }
 
 .btn-outline-success {
-  color: #fff; 
+  color: #023047; 
   background-color: #e07a5f;
   border-color: #fff;
 }
 
 .btn-primary {
-  color: #fff;
+  color: #023047;
   background-color: #e07a5f;
   border-color: #fff;
 }
@@ -66,13 +78,18 @@ h1{
   .nav-item{
     text-transform: uppercase;
     font-size: large;
-    color: #fff;
+    color: #023047;
     
   }
 
   .navbar-dark .navbar-nav .nav-link {
-    color: #fff;
+    color: #023047;
 }
+.navbar-dark .navbar-brand {
+  color: #023047;
+  font-weight: 700;
+}
+  
 
   .contact-us{
     text-transform: uppercase;
@@ -139,6 +156,7 @@ h1{
     margin-left: .75rem;
   }
   
+ 
   
   /* Featurettes
   ------------------------- */
@@ -152,6 +170,7 @@ h1{
     font-weight: 300;
     line-height: 1;
   }
+  
   
   
   /* RESPONSIVE CSS
