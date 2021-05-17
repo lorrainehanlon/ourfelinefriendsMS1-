@@ -10,26 +10,38 @@ header{
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
     color: #023047;
     background-color: #f4f1de;
   }
 
 section{
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  
 }
 
 p{
   color: #023047;
 }
+
+i{
+  padding: 1rem;
+}
+
+span{
+  padding: 1rem;
+  
+}
+
+
 /* Headings
 -------------------------------------------------- */
 h1{
   font-weight: 600;
   padding: 1rem;
   color: #023047;
+  background: #f4f1de;
 }
 
 h2{
@@ -66,7 +78,7 @@ h2{
   color: #023047;
   background-color: #e07a5f;
   border-color: #fff;
-  margin: 20px;
+  margin-top: 40px;
 }
 
 .btn-primary:hover {
@@ -175,7 +187,20 @@ h2{
     font-weight: 300;
     line-height: 1;
   }
+
+  .border{
+    border: 4px solid !important ;
+    border-color:#81b29a!important ;
+    margin: 5px;
+  }
+
+  .cash{
+    margin-right: 9.5rem;
+  }
   
+  .donate{
+    margin-right: 9.5rem;
+  }
   
   
   /* RESPONSIVE CSS
