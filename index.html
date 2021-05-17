@@ -14,6 +14,7 @@
 
 
 <body>
+  <!-- START OF NAVBAR-->
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="#">Our Feline Friends</a>
@@ -27,7 +28,7 @@
             <a class="nav-link" href="#whoweare">Who we are</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Adopt a cat</a>
+            <a class="nav-link" href="#adoptacat">Adopt a cat</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Support us</a>
@@ -39,8 +40,9 @@
       </div>
     </nav>
   </header>
+<!-- END OF NAVBAR-->
 
-
+<!-- START OF HOMEPAGE CAROUSEL-->
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -54,7 +56,7 @@
         <div class="container">
           <div class="carousel-caption d-none d-lg-block text-left">
             <h1>Who we are</h1>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Find out more about our cat shelter</a></p>
+            <p><a class="btn btn-lg btn-primary" href="#whoweare" role="button">Find out more about our cat shelter</a></p>
           </div>
         </div>
       </div>
@@ -63,7 +65,7 @@
         <div class="container">
           <div class="carousel-caption d-none d-lg-block">
             <h1>Adopt a cat</h1>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">View our cats looking for their forever home and
+            <p><a class="btn btn-lg btn-primary" href="#adoptacat" role="button">View our cats looking for their forever home and
                 find out how to apply</a></p>
           </div>
         </div>
@@ -73,7 +75,7 @@
         <div class="container">
           <div class="carousel-caption d-none d-lg-block text-right">
             <h1>Support us</h1>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Discover all the ways you can support us in our
+            <p><a class="btn btn-lg btn-primary" href="#supportus" role="button">Discover all the ways you can support us in our
                 work</a></p>
           </div>
         </div>
@@ -88,18 +90,17 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+<!-- END OF HOMEPAGE CAROUSEL-->
 
-
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
+<!--START OF WHO WE ARE SECTION-->
+  
   <section id="whoweare">
-
+    <div class="container text-center">
     <h2 class="text-center">Who we are</h2>
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-6">
-        <img src="assets/images/Kittens.jpg" alt="Five kittens of various colours in the grass" width="100%">
+        <img class="img-fluid" src="assets/images/Kittens.jpg" alt="Five kittens of various colours in the grass">
         <h2 class="text-center">The beginning</h2>
         <p>Our Feline Friends is a cat rescue centre which was opened in 2020 by Nina Persson in Malmö, Sweden. With a
           love of cats and a realisation that there were many strays in need in the city, Nina converted her back
@@ -107,22 +108,23 @@
 
       </div><!-- /.col-lg-6 -->
       <div class="col-lg-6">
-        <img src="assets/images/volunteers2.jpg"
-          alt="A female volunteer at the shelter wearing an apron and holding a grey striped kitten" width="100%">
+        <img class="img-fluid" src="assets/images/volunteers2.jpg"
+          alt="A female volunteer at the shelter wearing an apron and holding a grey striped kitten">
         <h2 class="text-center">Today</h2>
         <p>A team of dedicated volunteers now work with Nina to make sure that homeless cats can be saved from a life
           on the streets and find their loving forever home. Through generous public donations and support, the work
           continues.</p>
 
       </div>
-    </div><!-- /.row -->
+    </div>
+    <a class="btn btn-primary" href="#adoptacat" role="button">SEE OUR CATS AND FIND OUT HOW YOU CAN ADOPT</a>
+  </div>
   </section>
-
-  <!-- START THE FEATURETTES -->
+  <!--END OF WHO WE ARE SECTION-->
 
   <hr class="featurette-divider">
 
-
+<!--START OF ADOPT A CAT SECTION - -->
   <section id="adoptacat">
 
     <div class="container">
@@ -132,6 +134,9 @@
         our centre on 040 123 456. We will send you an application form to fill in where you can tell us about yourself
         and your living situation. Then you are welcome to come and visit your new feline friend, we will follow up with
         a home visit and soon you will be able to enjoy the love that a pet can bring to your home!</p>
+
+      <p><strong>Click on the pictures below to find out more about each of the cats!</strong></p>
+
       <div class="row">
 
         <div class="col-lg-4 col-md-6">
@@ -145,7 +150,8 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p>Florrie is a 3 year old female. She is independent but will come to you for cuddles when she gets to know you. She is looking for a home with outdoor space and enjoys the company of other cats.</p>
+                  <p>Florrie is a 3 year old female. She is independent but will come to you for cuddles when she gets
+                    to know you. She is looking for a home with outdoor space and enjoys the company of other cats.</p>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -155,7 +161,7 @@
           </div>
           <a><img class="img-fluid" src="assets/images/Florrie.jpg" alt="" data-toggle="modal"
               data-target="#modal1"></a>
-              <h3 class="text-center">Florrie</h3>
+          <h3 class="text-center">Florrie</h3>
         </div>
 
         <div class="col-lg-4 col-md-6">
@@ -163,13 +169,14 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
+                  <h5 class="modal-title">Milly</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p>Modal body text goes here.</p>
+                  <p>Milly is approximately 3 years old. She is such a loving girl! She would love a quite home without
+                    children, where she can relax and enjoy the company of her new owners.</p>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -177,23 +184,24 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Milly.jpg" alt="" data-toggle="modal"
-              data-target="#modal2"></a>
-              <h3 class="text-center">Milly</h3>
+          <a><img class="img-fluid" src="assets/images/Milly.jpg" alt="" data-toggle="modal" data-target="#modal2"></a>
+          <h3 class="text-center">Milly</h3>
         </div>
 
         <div class="col-lg-4 col-md-6">
-          <div class="modal" id="modal1" tabindex="-1" role="dialog">
+          <div class="modal" id="modal3" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
+                  <h5 class="modal-title">Rosie</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p>Modal body text goes here.</p>
+                  <p>Rosie has been with us for some time but we are hopeful that she can find her forever home soon.
+                    She is 6 years old. She is a calm and relaxed cat who is as happy on her own as she is with the
+                    other cats. She would like to live somewhere with indoor and outdoor access.</p>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -201,23 +209,23 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Rosie.jpg" alt="" data-toggle="modal"
-              data-target="#modal1"></a>
-              <h3 class="text-center">Rosie</h3>
+          <a><img class="img-fluid" src="assets/images/Rosie.jpg" alt="" data-toggle="modal" data-target="#modal3"></a>
+          <h3 class="text-center">Rosie</h3>
         </div>
 
         <div class="col-lg-4 col-md-6">
-          <div class="modal" id="modal1" tabindex="-1" role="dialog">
+          <div class="modal" id="modal4" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
+                  <h5 class="modal-title">Scruff</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p>Modal body text goes here.</p>
+                  <p>Scruff is a one year old male who came to us in a bad state but has made a great recovery and is
+                    now ready to find his new home! He loves to be with the other cats and is very playful.</p>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -225,23 +233,23 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Scruff.jpg" alt="" data-toggle="modal"
-              data-target="#modal1"></a>
-              <h3 class="text-center">Scruff</h3>
+          <a><img class="img-fluid" src="assets/images/Scruff.jpg" alt="" data-toggle="modal" data-target="#modal4"></a>
+          <h3 class="text-center">Scruff</h3>
         </div>
 
         <div class="col-lg-4 col-md-6">
-          <div class="modal" id="modal1" tabindex="-1" role="dialog">
+          <div class="modal" id="modal5" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
+                  <h5 class="modal-title">Snowy</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p>Modal body text goes here.</p>
+                  <p>Snowy is approximately 2 years old. He is shy and needs to get to know you before he will come to
+                    you. With some love and patience he could be the perfect companion for you.</p>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -249,23 +257,24 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Snowy.jpg" alt="" data-toggle="modal"
-              data-target="#modal1"></a>
-              <h3 class="text-center">Snowy</h3>
+          <a><img class="img-fluid" src="assets/images/Snowy.jpg" alt="" data-toggle="modal" data-target="#modal5"></a>
+          <h3 class="text-center">Snowy</h3>
         </div>
 
         <div class="col-lg-4 col-md-6">
-          <div class="modal" id="modal1" tabindex="-1" role="dialog">
+          <div class="modal" id="modal6" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
+                  <h5 class="modal-title">Suzie</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p>Modal body text goes here.</p>
+                  <p>Suzie is one year old. When she came to us she was a frightened, starving kitten. But look at her
+                    now! She loves people and other cats and is comfortable with children. Is she the new family member
+                    you've been looking for?</p>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -273,23 +282,49 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Suzie.jpg" alt="" data-toggle="modal"
-              data-target="#modal1"></a>
-              <h3 class="text-center">Suzie</h3>
+          <a><img class="img-fluid" src="assets/images/Suzie.jpg" alt="" data-toggle="modal" data-target="#modal6"></a>
+          <h3 class="text-center">Suzie</h3>
+        </div>
+
+        <div class="col-lg-4 col-md-7">
+          <div class="modal" id="modal7" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Tom</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Tom is one of our older cats, we think he is approximately seven years old. He would love a quiet
+                    home without children where he could spend his days in the garden and evenings relaxing with his new
+                    owner.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a><img class="img-fluid" src="assets/images/Tom.jpg" alt="" data-toggle="modal" data-target="#modal7"></a>
+          <h3 class="text-center">Tom</h3>
         </div>
 
         <div class="col-lg-4 col-md-6">
-          <div class="modal" id="modal1" tabindex="-1" role="dialog">
+          <div class="modal" id="modal8" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
+                  <h5 class="modal-title">Berty</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p>Modal body text goes here.</p>
+                  <p>Berty is a one and a half old male. He is very energetic and loves playing with the other cats and
+                    his toys. He would love to live with a family who has time to play with him, even better if there is
+                    already a cat in the house. </p>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -297,23 +332,24 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Tom.jpg" alt="" data-toggle="modal"
-              data-target="#modal1"></a>
-              <h3 class="text-center">Tom</h3>
+          <a><img class="img-fluid" src="assets/images/Berty.jpg" alt="" data-toggle="modal" data-target="#modal8"></a>
+          <h3 class="text-center">Berty</h3>
         </div>
 
         <div class="col-lg-4 col-md-6">
-          <div class="modal" id="modal1" tabindex="-1" role="dialog">
+          <div class="modal" id="modal9" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
+                  <h5 class="modal-title">Billy</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p>Modal body text goes here.</p>
+                  <p>You can see from the picture that Billy is an inquisitive boy! He is one year old. He is very
+                    friendly and will come looking for attention and affection. He would love to find a family who could
+                    spend lots of time with him.</p>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -321,54 +357,18 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Berty.jpg" alt="" data-toggle="modal"
-              data-target="#modal1"></a>
-              <h3 class="text-center">Berty</h3>
+          <a><img class="img-fluid" src="assets/images/Billy.jpg" alt="" data-toggle="modal" data-target="#modal9"></a>
+          <h3 class="text-center">Billy</h3>
         </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="modal" id="modal1" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <p>Modal body text goes here.</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <a><img class="img-fluid" src="assets/images/Billy.jpg" alt="" data-toggle="modal"
-              data-target="#modal1"></a>
-              <h3 class="text-center">Billy</h3>
-        </div>
-
-
-
       </div>
     </div>
-
     </div>
   </section>
-
-
-
-
-
-
-
-
-
+  <!--END OF ADOPT A CAT SECTION -->
 
   <hr class="featurette-divider">
 
+  <!--START OF SUPPORT US SECTION -->
   <div class="row featurette">
     <div class="col-md-7 order-md-2">
       <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
