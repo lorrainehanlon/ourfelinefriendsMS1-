@@ -13,7 +13,8 @@
 
 
 <body>
-  <!-- START OF NAVBAR-->
+  <!-- START OF NAVBAR - Started with Carousel template from Bootstrap and adapted to my site-->
+
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="#">Our Feline Friends</a>
@@ -23,24 +24,18 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ms-auto">
-          <span class="align-middle">
-          <li class="nav-item active">
-            <a class="nav-link" href="#whoweare">Who we are</a>
-          </li>
-        </span>
-        <span class="align-middle">
-          <li class="nav-item">
-            <a class="nav-link" href="#adoptacat">Adopt a cat</a>
-          </li>
-        </span>
-        <span class="align-middle">
-          <li class="nav-item">
-            <a class="nav-link" href="#supportus">Support us</a>
-          </li>
-        </span>
-          <li>
-            <a class="nav-link" href="#contactus"><button class="contact-us btn btn-outline-success my-2 my-sm-0" type="submit">Contact us</button></a>
-          </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#whoweare">Who we are</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#adoptacat">Adopt a cat</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#supportus">Support us</a>
+            </li>
+            <li>
+              <a href="#contactus" class="contact-us btn btn-outline-success my-2 my-sm-0">CONTACT US</a>
+            </li>
         </ul>
       </div>
     </nav>
@@ -48,7 +43,6 @@
   <!-- END OF NAVBAR-->
 
   <!-- START OF HOMEPAGE CAROUSEL-->
-
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -58,7 +52,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img class="hero-image" src="assets/images/Cover1.jpg" alt="Two cats relaxing on a rug">
-        <div class="container">
+        <div class="container-fluid">
           <div class="carousel-caption d-none d-lg-block">
             <h1>Who we are</h1>
             <p><a class="btn btn-lg btn-primary" href="#whoweare" role="button">Find out more about our cat shelter</a>
@@ -101,11 +95,9 @@
   <!-- END OF HOMEPAGE CAROUSEL-->
 
   <!--START OF WHO WE ARE SECTION-->
-
   <section id="whoweare">
     <div class="container text-center">
       <h2 class="text-center">WHO WE ARE</h2>
-      <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-6">
           <img class="img-fluid" src="assets/images/Kittens.jpg" alt="Five kittens of various colours in the grass">
@@ -113,7 +105,6 @@
           <p>Our Feline Friends is a cat rescue centre which was opened in 2020 by Nina Persson in Malmö, Sweden. With a
             love of cats and a realisation that there were many strays in need in the city, Nina converted her back
             garden into a shelter and began taking in her first cats.</p>
-
         </div><!-- /.col-lg-6 -->
         <div class="col-lg-6">
           <img class="img-fluid" src="assets/images/volunteers2.jpg"
@@ -122,7 +113,6 @@
           <p>A team of dedicated volunteers now work with Nina to make sure that homeless cats can be saved from a life
             on the streets and find their loving forever home. Through generous public donations and support, the work
             continues.</p>
-
         </div>
       </div>
       <a class="btn btn-primary" href="#adoptacat" role="button">SEE OUR CATS AND FIND OUT HOW YOU CAN ADOPT</a>
@@ -132,9 +122,8 @@
 
   <hr class="featurette-divider">
 
-  <!--START OF ADOPT A CAT SECTION - -->
+  <!--START OF ADOPT A CAT SECTION - Modal snippet taken from Bootstrap and adapted for my site -->
   <section id="adoptacat">
-
     <div class="container text-center">
       <h2 class="text-center">ADOPT A CAT</h2>
       <p>We have lots of cats just waiting to meet their new owner. Click on our cats pictures below to find out more
@@ -142,11 +131,9 @@
         our centre on 040 123 456. We will send you an application form to fill in where you can tell us about yourself
         and your living situation. Then you are welcome to come and visit your new feline friend, we will follow up with
         a home visit and soon you will be able to enjoy the love that a pet can bring to your home!</p>
-
       <p><strong>Click on the pictures below to find out more about each of the cats!</strong></p>
 
       <div class="row">
-
         <div class="col-lg-4  col-md-6">
           <div class="modal" id="modal1" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
@@ -167,11 +154,10 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Florrie.jpg" alt="" data-toggle="modal"
-              data-target="#modal1"></a>
+          <a><img class="img-fluid" src="assets/images/Florrie.jpg" alt="A grey striped cat with white chest"
+              data-toggle="modal" data-target="#modal1"></a>
           <h3 class="text-center">Florrie</h3>
         </div>
-
         <div class="col-lg-4 col-md-6">
           <div class="modal" id="modal2" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
@@ -192,10 +178,10 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Milly.jpg" alt="" data-toggle="modal" data-target="#modal2"></a>
+          <a><img class="img-fluid" src="assets/images/Milly.jpg" alt="Brown long haired cat with white chest"
+              data-toggle="modal" data-target="#modal2"></a>
           <h3 class="text-center">Milly</h3>
         </div>
-
         <div class="col-lg-4 col-md-6">
           <div class="modal" id="modal3" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
@@ -217,10 +203,10 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Rosie.jpg" alt="" data-toggle="modal" data-target="#modal3"></a>
+          <a><img class="img-fluid" src="assets/images/Rosie.jpg" alt="A grey and white cat" data-toggle="modal"
+              data-target="#modal3"></a>
           <h3 class="text-center">Rosie</h3>
         </div>
-
         <div class="col-lg-4 col-md-6">
           <div class="modal" id="modal4" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
@@ -241,10 +227,10 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Scruff.jpg" alt="" data-toggle="modal" data-target="#modal4"></a>
+          <a><img class="img-fluid" src="assets/images/Scruff.jpg" alt="A tortoiseshell cat" data-toggle="modal"
+              data-target="#modal4"></a>
           <h3 class="text-center">Scruff</h3>
         </div>
-
         <div class="col-lg-4 col-md-6">
           <div class="modal" id="modal5" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
@@ -265,10 +251,10 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Snowy.jpg" alt="" data-toggle="modal" data-target="#modal5"></a>
+          <a><img class="img-fluid" src="assets/images/Snowy.jpg" alt="A whie cat" data-toggle="modal"
+              data-target="#modal5"></a>
           <h3 class="text-center">Snowy</h3>
         </div>
-
         <div class="col-lg-4 col-md-6">
           <div class="modal" id="modal6" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
@@ -290,10 +276,10 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Suzie.jpg" alt="" data-toggle="modal" data-target="#modal6"></a>
+          <a><img class="img-fluid" src="assets/images/Suzie.jpg" alt="A grey and white cat" data-toggle="modal"
+              data-target="#modal6"></a>
           <h3 class="text-center">Suzie</h3>
         </div>
-
         <div class="col-lg-4 col-md-6">
           <div class="modal" id="modal7" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
@@ -315,10 +301,10 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Tom.jpg" alt="" data-toggle="modal" data-target="#modal7"></a>
+          <a><img class="img-fluid" src="assets/images/Tom.jpg" alt="A grey striped cat with white chest and legs"
+              data-toggle="modal" data-target="#modal7"></a>
           <h3 class="text-center">Tom</h3>
         </div>
-
         <div class="col-lg-4 col-md-6">
           <div class="modal" id="modal8" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
@@ -340,10 +326,10 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Berty.jpg" alt="" data-toggle="modal" data-target="#modal8"></a>
+          <a><img class="img-fluid" src="assets/images/Berty.jpg" alt="A black cat with white face, chest and legs"
+              data-toggle="modal" data-target="#modal8"></a>
           <h3 class="text-center">Berty</h3>
         </div>
-
         <div class="col-lg-4">
           <div class="modal" id="modal9" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
@@ -365,12 +351,12 @@
               </div>
             </div>
           </div>
-          <a><img class="img-fluid" src="assets/images/Billy.jpg" alt="" data-toggle="modal" data-target="#modal9"></a>
+          <a><img class="img-fluid" src="assets/images/Billy.jpg" alt="A brown stripey cat" data-toggle="modal"
+              data-target="#modal9"></a>
           <h3 class="text-center">Billy</h3>
         </div>
       </div>
       <a class="btn btn-primary" href="#supportus" role="button">WANT TO KNOW HOW YOU CAN SUPPORT US?</a>
-    </div>
     </div>
   </section>
   <!--END OF ADOPT A CAT SECTION -->
@@ -381,30 +367,25 @@
   <section id="supportus">
     <div class="container text-center">
       <h2 class="text-center">HOW YOU CAN SUPPORT US</h2>
-      <div class="row">
-        <span class="col-lg-3 border border-primary cash">
-          <div class="text-center">
-            <i class="fas fa-credit-card fa-3x"></i>
-            <p>You can make a cash donation to us. Even the smallest amount can help us so much. You can make a payment
-              by Swish to our number 040 123 456 or by bank giro to our account 1234 123456.</p>
-          </div>
-        </span>
-        <span class="col-lg-3 border border-primary donate">
-        <div class="text-center">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-3 border border-primary">
+          <i class="fas fa-credit-card fa-3x"></i>
+          <p>You can make a cash donation to us. Even the smallest amount can help us so much. You can make a payment
+            by Swish to our number 040 123 456 or by bank giro to our account 1234 123456.</p>
+        </div>
+        <div class="col-lg-3 border border-primary">
           <i class="fas fa-gift fa-3x"></i>
-          <p>We accept donations of cat food, toys, blankets, and cat litter. These help us to continue to help as many
-            cats as we can and to make them feel comfortable and secure. Donations of goods can be posted to our address
+          <p>We accept donations of cat food, toys, blankets, and cat litter. These help us to continue to help as
+            many
+            cats as we can and to make them feel comfortable and secure. Donations of goods can be posted to our
+            address
             at Linnegatan 1, Malmö 21158 or dropped off in person.</p>
         </div>
-      </span>
-      <span class="col-lg-3 border border-primary">
-        <div class="text-center">
+        <div class="col-lg-3 border border-primary">
           <i class="fas fa-home fa-3x"></i>
           <p>The greatest way you can support us is to adopt one of our cats and give it a forever home. We request an
             adoption donation of 1000 SEK which goes back into the care of our cats and veterinary costs.</p>
         </div>
-      </span>
-      
       </div>
       <a class="btn btn-primary" href="#contactus" role="button">WOULD YOU LIKE TO SEND US A MESSAGE?</a>
     </div>
@@ -413,86 +394,71 @@
 
   <hr class="featurette-divider">
 
-  <!--START OF CONTACT US SECTION -->
+  <!--START OF CONTACT US SECTION - Some form snippets taken from Bootstrap and adapted to my site-->
   <section id="contactus">
     <div class="container">
       <h2 class="text-center">CONTACT US</h2>
-      <p class="text-center">Would you like to enquire about adopting one of our cats? Or have a question about our rescue centre? Drop us a line in the form below!</p>
+      <p class="text-center">Would you like to enquire about adopting one of our cats? Or have a question about our
+        rescue centre? Drop us a line in the form below!</p>
       <div class="row justify-content-center">
         <div class="col-lg-6">
-      <form>
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+            </div>
+            <div class="form-group">
+              <label for="telephone">Telephone number</label>
+              <input type="text" class="form-control" id="telephone" placeholder="Enter telephone number" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email address" required>
+            </div>
+            <div class="form-group">
+              <label for="textarea">Message</label>
+              <textarea class="form-control" id="textarea" rows="4" placeholder="Enter your meassage here"
+                required></textarea>
+            </div>
+            <div class="container">
+              <div class="row justify-content-center">
+                <button class="submit btn btn-outline-success my-2 my-sm-0" type="submit">Submit</button>
+              </div>
+            </div>
+          </form>
         </div>
-        <div class="form-group">
-          <label for="telephone">Telephone number</label>
-          <input type="text" class="form-control" id="telephone" placeholder="Enter telephone number" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Email address</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter email address" required>
-        </div>
-        <div class="form-group">
-          <label for="textarea">Message</label>
-          <textarea class="form-control" id="textarea" rows="4" placeholder="Enter your meassage here" required></textarea>
-        </div>
-        <div class="container">
-          <div class="row justify-content-center">
-        <button class="submit btn btn-outline-success my-2 my-sm-0" type="submit">Submit</button>
       </div>
-      </div>
-      </form>
     </div>
-    </div>
-    </div>
-
   </section>
   <!--END OF CONTACT US SECTION -->
 
   <hr class="featurette-divider">
 
-
-
-
   <!--START OF FOOTER-->
   <footer class="container-fluid">
     <div class="row">
       <div class="col-lg-3 text-center">
-        <span class="align-middle">
-    <p>Our Feline Friends</p>
-      <p>Linnegatan 1</p>
-      <p>Malmö 21158</p>
-      <p>Sweden</p>
-    </span>
-  </div>
-
-  
-  <div class="col-lg-3 text-center">
-    <span class="align-middle">
-    <p>Tel: 040 123 456</p>
-  </span>
-  </div>
-
-  <div class="col-lg-3 text-center">
-    <span class="align-middle">
-    <a class="instagram" href="https://instagram.com" target="_blank" rel="noreferrer"
-    aria-label="Go to our instagram page"><i class="fab fa-instagram fa-3x"></i></a>
-  
-    <a href="https://facebook.com" target="_blank" rel="noreferrer"
-    aria-label="Go to our facebook page"><i class="fab fa-facebook fa-3x"></i></a>
-  </span>
-  </div>
-
-  <div class="col-lg-3 text-center>
-    <span class="align-middle">
-    <p><a href="#">Back to top</a></p>
-    
-    <p>&copy; 2021 &middot Created by L. Hanlon</p>
-  </span>
-  </div>
-  </div>
+        <p>Our Feline Friends</p>
+        <p>Linnegatan 1</p>
+        <p>Malmö 21158</p>
+        <p>Sweden</p>
+      </div>
+      <div class="col-lg-3 text-center">
+        <p>Tel: 040 123 456</p>
+      </div>
+      <div class="col-lg-3 text-center">
+        <a class="instagram" href="https://instagram.com" target="_blank" rel="noreferrer"
+          aria-label="Go to our instagram page"><i class="fab fa-instagram fa-3x"></i></a>
+        <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Go to our facebook page"><i
+            class="fab fa-facebook fa-3x"></i></a>
+      </div>
+      <div class="col-lg-3 text-center">
+        <p><a href="#">Back to top</a></p>
+        <p>&copy; 2021 &middot; Created by L. Hanlon</p>
+      </div>
+    </div>
   </footer>
+  <!--END OF FOOTER-->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>

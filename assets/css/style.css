@@ -7,7 +7,6 @@ header{
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
-/* Padding below the footer and lighter body text */
 
 body {
   font-family: roboto, sans-serif;
@@ -130,15 +129,9 @@ h2{
   
   }
 
-
-
-  
-  
-  
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
   
-  /* Carousel base class */
   
   .carousel {
     margin-bottom: 4rem;
@@ -174,24 +167,6 @@ h2{
   }
 
   
-  
-  /* MARKETING CONTENT
-  -------------------------------------------------- */
-  
-  .marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-  }
-  .marketing h2 {
-    font-weight: 400;
-  }
-  .marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-  }
-  
- 
-  
   /* Featurettes
   ------------------------- */
   
@@ -199,7 +174,6 @@ h2{
     margin: 4rem 0 0 0; 
   }
   
-  /* Thin out the marketing headings */
   .featurette-heading {
     font-weight: 300;
     line-height: 1;
@@ -209,14 +183,6 @@ h2{
     border: 4px solid !important ;
     border-color:#81b29a!important ;
     margin: 5px;
-  }
-
-  .cash{
-    margin-right: 9.5rem;
-  }
-  
-  .donate{
-    margin-right: 9.5rem;
   }
 
   .form-control{
