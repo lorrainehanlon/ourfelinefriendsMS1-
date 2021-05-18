@@ -10,8 +10,9 @@ header{
 /* Padding below the footer and lighter body text */
 
 body {
+  font-family: roboto, sans-serif;
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  
     color: #023047;
     background-color: #f4f1de;
   }
@@ -34,6 +35,14 @@ span{
   
 }
 
+footer{
+
+background-color: #81b29a;
+}
+
+a{
+  color: #023047!important;
+}
 
 /* Headings
 -------------------------------------------------- */
@@ -107,13 +116,21 @@ h2{
   color: #023047;
   font-weight: 700;
 }
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
   
 
   .contact-us{
     text-transform: uppercase;
     margin-right: 1rem;
     margin-left: 1rem;
+  
   }
+
+
 
   
   
@@ -179,7 +196,7 @@ h2{
   ------------------------- */
   
   .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    margin: 4rem 0 0 0; 
   }
   
   /* Thin out the marketing headings */
@@ -201,7 +218,19 @@ h2{
   .donate{
     margin-right: 9.5rem;
   }
+
+  .form-control{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   
+.my-sm-0 {
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+}
+
+
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
