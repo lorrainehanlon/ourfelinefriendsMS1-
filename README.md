@@ -2,6 +2,8 @@
 
 ## Milestone Project 1 - User Centric Front-end Design
 
+[Visit my website.](https://lorrainehanlon.github.io/ourfelinefriendsMS1-/)
+
 The brief is to build a static front-end site using HTML and CSS, and based on the principles of UX design. This website is for educational purposes.
 
 ## UX
